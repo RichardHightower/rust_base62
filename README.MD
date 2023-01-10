@@ -93,7 +93,7 @@ def main(args: Array[String]): Unit = {
 <sub>
 
 ```rust
-    fn main() {
+fn main() {
     println!("Hello, world! {} {}",  convert_to_encoded_string(12345678910), convert_to_long("DTVD3O".to_string()));
     let long_url = "https://www.somewebiste.com/d=...";
     let url_id = hash(&long_url) / 10;
@@ -164,7 +164,7 @@ private def accumulateDigits(placeHolder: Int, acc: Long,
 <sub>
 
 ```rust
-    fn convert_to_encoded_string(id :u64) -> String {
+fn convert_to_encoded_string(id :u64) -> String {
     let mut builder = Builder::default();
     let place_holder = find_start_bucket(id);
     let results = accumulate_digits(place_holder as i32, id, builder);
@@ -276,15 +276,15 @@ private def doPow(exponent: Long, base: Int): Long = {
 <td >
 <sub>
 
-```rust 
-    fn pow_digits_base( exponent : u64) -> u64 {
-        return do_pow(exponent, DIGITS.len() as u64);
-    }
+```rust
+fn pow_digits_base( exponent : u64) -> u64 {
+    return do_pow(exponent, DIGITS.len() as u64);
+}
 
-    fn do_pow( exponent : u64, base: u64) -> u64 {
-        if exponent == 0 { return 1; }
-        return do_pow(exponent - 1, base) * base;
-    }
+fn do_pow( exponent : u64, base: u64) -> u64 {
+    if exponent == 0 { return 1; }
+    return do_pow(exponent - 1, base) * base;
+}
 ```
 
 </sub>
@@ -387,7 +387,7 @@ private def doConvertToLong(chars: Array[Char]): Long = {
 <sub>
 
 ```rust
-    fn convert_to_long(str_id: String) -> u64 {
+fn convert_to_long(str_id: String) -> u64 {
     let chars  : Vec<_> = str_id.chars().collect();
     return do_convert_to_long(chars);
 }
@@ -428,7 +428,7 @@ Rust
 <td>
 <sub>
 
-```scala 
+```scala
 private def computeValue(c: Char, position: Int) = {
   val digitIndex = findIndexOfDigitInTable(c)
   val multiplier = powDigitsBase(position)
@@ -465,7 +465,7 @@ fn compute_value(c: char, position: usize) -> u64 {
 
 ## Rust full example
 
-```rust 
+```rust
 use std::hash::{Hash, Hasher};
 use fasthash::{MetroHasher};
 use string_builder::Builder;
