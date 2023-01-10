@@ -80,7 +80,6 @@ fn main() {
 
     fn do_convert_to_long(mut chars: Vec<char> ) -> u64 {
         chars.reverse();
-
         let (acc, _) = chars.iter().fold((0, 0), |pos, ch| {
             let (acc, position) = pos;
             let value = compute_value(*ch, position);
