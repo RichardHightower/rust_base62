@@ -38,9 +38,10 @@
 * [Fourth Video in Base62 language (Clojure) series 6th Vlog video](https://www.youtube.com/watch?v=1kbAUob3Bi0) [Show notes](https://gist.github.com/RichardHightower/5b45e5162cf8295f73e71d67ad4a442d)
 * [Fifth Video in Base62 language (Python) series 7th Vlog video](https://www.youtube.com/watch?v=Sdfxs8UsK3w) [Show notes](https://github.com/RichardHightower/python_base62)
 * [Sixth Video in Base62 language (JavaScript/TypeScript) series 8th Vlog video](https://www.youtube.com/TBD) [Show notes](https://github.com/RichardHightower/ts_js_base62)
-* [Seventh Video in Base62 language (Rust) series 9th Vlog video](https://www.youtube.com/TBD) [Show notes](https://github.com/RichardHightower/https://github.com/RichardHightower/rust_base62)
-* [Eighth Video in Base62 language (Go Lang) series 10th Vlog video](https://www.youtube.com/TBD) [Show notes](https://github.com/RichardHightower/golang_base62)
-* 
+* [Seventh Video in Base62 language (Kotlin) series 9th Vlog video](https://www.youtube.com/TBD) [Show notes](https://github.com/RichardHightower/ts_js_base62)
+* [Eighth Video in Base62 language (Rust) series 10th Vlog video](https://www.youtube.com/TBD) [Show notes](https://github.com/RichardHightower/https://github.com/RichardHightower/rust_base62)
+* [Ninth Video in Base62 language (Go Lang) series 11th Vlog video](https://www.youtube.com/TBD) [Show notes](https://github.com/RichardHightower/golang_base62)
+
 
 # Related articles
 * [Comparing Basic FP support part 1 --Rick Hightower](https://www.linkedin.com/pulse/comparing-basic-fp-support-part-1-rick-hightower/)
